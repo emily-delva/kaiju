@@ -1,0 +1,7 @@
+gitc clone https://github.com/bioinformatics-centre/kaiju.git
+sudo apt install libz-dev
+cd kaiju/src
+make
+
+
+kaiju -t nodes.dmp -f kaiju_db_*.fmi -i inputfile.fastq -o kaiju.out
